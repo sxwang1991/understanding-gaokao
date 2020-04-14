@@ -1,4 +1,4 @@
-[✔]: pdf/041423430593_1.svg
+[✔]: 041423430593_1.svg
 
 # Node.js 最佳实践
 
@@ -9,7 +9,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/⚙%20Item%20count%20-%2082%20Best%20Practices-blue.svg" alt="82 items"> <img src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20Jun%205%202019-green.svg" alt="Last update: June 5, 2019"> <img src="https://img.shields.io/badge/ %E2%9C%94%20Updated%20For%20Version%20-%20Node%2012.4.0%20LTS-brightgreen.svg" alt="Updated for Node 12.4.0 LTS">
+  <img src="041423430593_1.svg" alt="82 items"> <img src="041423430593_2.svg" alt="Last update: June 5, 2019"> <img src="041423430593_3.svg" alt="Updated for Node 12.4.0 LTS">
 </div>
 
 <br/>
