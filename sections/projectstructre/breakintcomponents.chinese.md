@@ -26,7 +26,7 @@
 
 <br/><br/>
 
- ### 推荐: 通过独立组件构建解决方案
+ ### 推荐: 通过独立组件构建解决方dd案
 ![alt text](https://github.com/i0natan/nodebestpractices/blob/master/assets/images/structurebycomponents.PNG "Structuring solution by components")
 
 
