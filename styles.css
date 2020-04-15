@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+html { 
+  height: 100%; 
+  background: #1A2A3A;  
+  color: #FFF; 
+}
+body {
+  font-family: Roboto, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+  transition-property: clip-path, opacity;
+  transition-duration: 900ms, 300ms;
+  transition-timing-function: cubic-bezier(.5, 0, .5, 1);
+}
+.slider {
+  position:relative;
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  .status {
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+    display:flex;
+    .stat {
+      width:10px;
+      height:10px;
+      background-color:transparent;
+      border-radius:50%;
+      z-index:11;
+      margin: 0px 5px;
+      border: 2px solid #fff;
+    }
+    .stat[data-active] {
+      background-color:#fff;
+    }
+  }
+  
+  img {
+    object-fit: cover;
+    object-position: center 80%;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .image {
+    width: 100%;
+    margin-right: -100%;
+    opacity: 0;
+    display: block;
+    img {
+      clip-path: circle(50px at 5vw 50%);
+     }
+  }
+  .image[data-active] {
+    opacity:1;
+    img {
+      clip-path: circle(100vmax at 50% 50%);
+    }
+  }
+  .image[data-active] ~.image {
+    opacity: 0;
+    img{
+      clip-path: circle(50px at 95vw 50%);
+    }
+  }
+  svg {
+   height: 30px;
+    position:absolute;
+    top:50%;
+    margin-top:-15px;
+    z-index: 1000;
+    cursor: pointer;
+    overflow:visible;
+    path {
+      stroke: #666;
+      stroke-linecap:round;
+      stroke-width:12px;
+      fill:transparent;
+    }
+    circle {
+      fill: #fff9;
+    }
+    &#next {
+      right:5vw;
+
+    }
+    &#prev {
+      left:5vw;
+    }
+  }
+}
+.dwf {
+  position:fixed;
+  bottom:4px;
+  right:10px;
+  background-color:#0003;
+  padding:3px;
+  border-radius:3px;
+}
