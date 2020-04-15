@@ -27,13 +27,11 @@
 <br/><br/><br/>
 
 ## [目录](#table-of-contents)
-1. [项目结构实践 (5) ](#1-project-structure-practices)
-2. [异常处理实践 (11) ](#2-error-handling-practices)
-3. [编码规范实践 (12) ](#3-code-style-practices)
-4. [测试和总体质量实践 (8) ](#4-testing-and-overall-quality-practices)
-5. [进入生产实践 (16) ](#5-going-to-production-practices)
-6. :star: 新: [安全实践(23)](#6-security-best-practices)
-7. Performance Practices ([coming soon](https://github.com/i0natan/nodebestpractices/milestones?direction=asc&sort=due_date&state=open))
+1. [二零一五 (5) ](#1-project-structure-practices)
+2. [二零一六 (11) ](#2-error-handling-practices)
+3. [二零一七 (12) ](#3-code-style-practices)
+4. [二零一八 (8) ](#4-testing-and-overall-quality-practices)
+5. [二零一九 (16) ](#5-going-to-production-practices)
 
 
 <br/><br/><br/>
